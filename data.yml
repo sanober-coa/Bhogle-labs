@@ -12,13 +12,13 @@ locations:
   SOURCE:
     mappingDefinitions:
       "5":
-        database: DEV_SANOBER
-        schema: DEV_STAGING
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
   TARGET:
     mappingDefinitions:
       "5":
-        database: DEV_SANOBER
-        schema: PROD_STAGING
+        database: BHOGLE_TEST
+        schema: TARGET_TEST
 macros: {}
 packages: {}
 projects: {}

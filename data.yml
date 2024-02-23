@@ -8,7 +8,17 @@ jobs:
     name: Job1
     steps: []
     subgraphs: []
-locations: {}
+locations:
+  SOURCE:
+    mappingDefinitions:
+      "5":
+        database: DEV_SANOBER
+        schema: DEV_STAGING
+  TARGET:
+    mappingDefinitions:
+      "5":
+        database: DEV_SANOBER
+        schema: PROD_STAGING
 macros: {}
 packages: {}
 projects: {}
